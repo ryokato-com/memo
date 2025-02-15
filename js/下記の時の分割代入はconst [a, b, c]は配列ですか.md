@@ -1,3 +1,14 @@
+
+### 下記の時の分割代入はconst [a, b, c]は配列ですか？
+
+```js
+const arr = [1, 2, 3];
+const [a, b, c] = arr;
+
+console.log(a, b, c);
+```
+
+
 はい、`const [a, b, c]` は **配列の分割代入 (destructuring assignment)** によって `arr` の各要素を個別の変数 `a`, `b`, `c` に代入するコードです。  
 
 しかし、**`a`, `b`, `c` は配列ではなく、個別の変数** です。  
